@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stdint.h>
+
 enum UART_TYPE {TX = 0, RX = 1, BOTH = 2};
 
 class UART {
